@@ -13,6 +13,7 @@ const buildHTML = (XHR) => {
 };
 
 function post (){
+  console.log("aaaa")
   const form = document.getElementById("form");
   form.addEventListener("submit", (e) => {
     e.preventDefault();
